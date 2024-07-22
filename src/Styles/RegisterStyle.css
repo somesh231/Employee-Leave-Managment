@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-reg-sec{
+    background-image: url('../images/pieces-blue-stationery.jpg');
+    height: 695.5px;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.reg-form-sec{
+    background-color: rgb(78, 168, 198);
+    height: 680px;
+    width: 450px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    border-radius: 20px;
+}
+
+.reg-form-sec h1{
+    margin-top: 50px;
+}
+
+.reg-form-sec form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:flex-start;
+    margin-left: 20px;
+}
+
+.reg-form-sec form div input{
+    width: 400px;
+    height: 40px;
+    background-color: rgb(89, 196, 196);
+    border: 0px;
+    border-radius: 8px;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.reg-form-sec form div input:focus{
+    outline: 1px solid blue;
+}
+
+.reg-form-sec form button[type=submit]{
+    position:relative;
+    left: 132px;
+    margin: 20px ;
+    background-color: black;
+    color: white;
+}
+
+
+
